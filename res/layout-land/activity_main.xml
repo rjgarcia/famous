@@ -19,8 +19,7 @@
         android:id="@+id/imageView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/titulo"
-        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/titulo"               
         android:layout_marginTop="10dp"
         android:contentDescription="@string/descript"
         android:adjustViewBounds="true"
@@ -30,9 +29,10 @@
     <TextView
         android:id="@+id/contenido"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/imageView1"
-        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"        
+        android:layout_toRightOf="@+id/imageView1"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
         android:text="@string/textoLinus" />
 
 </RelativeLayout>
