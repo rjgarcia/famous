@@ -26,13 +26,19 @@
         android:scaleType="fitXY"
         android:src="@drawable/linus_torvalds" />
 
-    <TextView
-        android:id="@+id/contenido"
+    
+    <ScrollView 
+        android:id="@+id/scroll"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"        
+        android:layout_height="wrap_content"
         android:layout_toRightOf="@+id/imageView1"
         android:layout_marginTop="30dp"
-        android:layout_marginLeft="10dp"
-        android:text="@string/textoLinus" />
-
+        android:layout_marginLeft="10dp">     
+        <TextView
+            android:id="@+id/contenido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        	
+        	android:text="@string/textoLinus" />
+	</ScrollView>
 </RelativeLayout>

@@ -26,13 +26,19 @@
         android:adjustViewBounds="true"
         android:scaleType="fitXY"
         android:src="@drawable/richard_stallman" />
-
-    <TextView
-        android:id="@+id/contenido"
+ 	<ScrollView 
+        android:id="@+id/scroll"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/imageView1"
-        android:layout_marginTop="10dp"
-        android:text="@string/textoRichard" />
-
+        android:layout_marginTop="10dp">
+    
+    	<TextView
+        	android:id="@+id/contenido"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	
+        	
+        	android:text="@string/textoRichard" />
+	</ScrollView>
 </RelativeLayout>

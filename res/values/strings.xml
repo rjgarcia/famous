@@ -4,7 +4,16 @@
     <string name="app_name">Famous Computer Scientists</string>
     <string name="action_settings">Settings</string>
     <string name="famousRichard">Richard Stallman</string>
-    <string name="textoRichard">Richard Matthew Stallman \(born March 16, 1953\), often known by his initials, RMS, is an American software freedom activist and computer programmer. He campaigns for software to be distributed in a manner, such that a user receiving it, likewise receives with it the freedoms to use, study, distribute and modify that software: software that ensures these freedoms \(on receipt\) is termed free software. He is best known for launching the GNU Project, founding the Free Software Foundation, developing the GNU Compiler Collection and GNU Emacs, and writing the GNU General Public License.</string>
+    <string name="textoRichard">Richard Matthew Stallman \(born March 16, 1953\), often known by his initials, RMS, is an American software freedom activist and computer programmer. He campaigns for software to be distributed in a manner, such that a user receiving it, likewise receives with it the freedoms to use, study, distribute and modify that software: software that ensures these freedoms \(on receipt\) is termed free software. He is best known for launching the GNU Project, founding the Free Software Foundation, developing the GNU Compiler Collection and GNU Emacs, and writing the GNU General Public License.
+        In the late 1970s and early 1980s, the hacker culture that Stallman thrived on began to fragment. To prevent software from being used on their competitors\' computers, most manufacturers stopped distributing source code and began using copyright and restrictive software licenses to limit or prohibit copying and redistribution. Such proprietary software had existed before, and it became apparent that it would become the norm. This shift in the legal characteristics of software can be regarded as a consequence triggered by the U.S. Copyright Act of 1976, as stated by Stallman\'s MIT fellow Brewster Kahle.
+
+When Brian Reid in 1979 placed time bombs in the Scribe markup language and word processing system to restrict unlicensed access to the software, Stallman proclaimed it \"a crime against humanity.\" He clarified, years later , that it is blocking the user\'s freedom that he believes is a crime, not the issue of charging for the software. Stallman\'s texinfo is a GPL replacement, loosely based on Scribe ; the original version was finished in 1986.
+
+In 1980, Stallman and some other hackers at the AI Lab were refused access to the source code for the software of a newly installed laser printer, the Xerox 9700. Stallman had modified the software for the Lab\'s previous laser printer \(the XGP, Xerographic Printer\), so it electronically messaged a user when the person\'s job was printed, and would message all logged-in users waiting for print jobs if the printer was jammed. Not being able to add these features to the new printer was a major inconvenience, as the printer was on a different floor from most of the users. This experience convinced Stallman of people\'s need to be free to modify the software they use.
+
+Richard Greenblatt, a fellow AI Lab hacker, founded Lisp Machines, Inc. \(LMI\) to market Lisp machines, which he and Tom Knight designed at the lab. Greenblatt rejected outside investment, believing that the proceeds from the construction and sale of a few machines could be profitably reinvested in the growth of the company. In contrast, the other hackers felt that the venture capital-funded approach was better. As no agreement could be reached, hackers from the latter camp founded Symbolics, with the aid of Russ Noftsker, an AI Lab administrator. Symbolics recruited most of the remaining hackers including notable hacker Bill Gosper, who then left the AI Lab. Symbolics also forced Greenblatt to resign by citing MIT policies. While both companies delivered proprietary software, Stallman believed that LMI, unlike Symbolics, had tried to avoid hurting the lab\'s community. For two years, from 1982 to the end of 1983, Stallman worked by himself to clone the output of the Symbolics programmers, with the aim of preventing them from gaining a monopoly on the lab\'s computers.
+        
+    </string>
     <string name="famousLinus">Linus Torvalds</string>
     <string name="textoLinus">Linus Benedict Torvalds, born December 28, 1969, is a Finnish American software engineer, who was the principal force behind the development of the Linux kernel. He later became the chief architect of the Linux kernel, and now acts as the project\'s coordinator. He also created the revision control system Git as well as the diving log software Subsurface. He was honored, along with Shinya Yamanaka, with the 2012 Millennium Technology Prize by the Technology Academy Finland in recognition of his creation of a new open source operating system for computers leading to the widely used Linux kernel.Early years
 
@@ -27,7 +36,9 @@ Although Torvalds believes \"open source is the only right way to do software\",
 
 In 2008 Torvalds stated that he used the Fedora distribution of Linux because it had fairly good support for the PowerPC processor architecture, which he had favoured at the time.
 
-Currently, the Linux Foundation sponsors Torvalds so he can work full-time on improving Linux.</string>
+Currently, the Linux Foundation sponsors Torvalds so he can work full-time on improving Linux.
+
+     </string>
     
     <string name="descript">Famous Computer Scientists</string>
 </resources>
