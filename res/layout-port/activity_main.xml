@@ -22,7 +22,7 @@
         android:layout_below="@+id/titulo"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
-        android:contentDescription="@string/descript"
+        android:contentDescription="@string/descriptRichard"
         android:adjustViewBounds="true"
         android:scaleType="fitXY"
         android:src="@drawable/richard_stallman" />
@@ -37,8 +37,8 @@
         	android:id="@+id/contenido"
         	android:layout_width="wrap_content"
         	android:layout_height="wrap_content"
-        	
-        	
+        	android:textSize="@dimen/font_size"
+        	android:gravity="fill_horizontal"        	        
         	android:text="@string/textoRichard" />
 	</ScrollView>
 </RelativeLayout>

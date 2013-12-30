@@ -40,5 +40,9 @@ Currently, the Linux Foundation sponsors Torvalds so he can work full-time on im
 
      </string>
     
-    <string name="descript">Famous Computer Scientists</string>
+    <string name="descriptLinus">Linus Torvalds Famous Computer Scientist</string>
+    <string name="descriptRichard">Richard Stallman Famous Computer Scientist</string>
+    
+    <dimen name="font_size">24sp</dimen>
+    
 </resources>
